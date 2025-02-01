@@ -1,4 +1,4 @@
-<h1>User Inquiry Form</h1>
+<h1>User Inquiry Form <span>CRUD operations</span></h1>
 
 This project is a simple user inquiry form application where users can submit, update, and delete their details (name, email, phone number, and message). The submitted inquiries are stored in a MongoDB database and can be viewed, updated, or deleted by the user in real time.
 
