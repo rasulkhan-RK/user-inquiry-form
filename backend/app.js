@@ -13,6 +13,9 @@ app.use(cors());
 const server = process.env.PORT || 3000;
 
 // api endpoint
+app.get("/",(req, res) => {
+  res.send("API Working");
+});
 app.use("/api/enquiry", enquiryRoute);
 
 //connecting to mongdb
